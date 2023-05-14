@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/login_hack
+    username: admin
+    password: esplai123
+      
+  jpa:
+    hibernate:
+      ddl-auto: create
+
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: false
+        enable_lazy_load_no_trans: true
+
+
+
+
+
